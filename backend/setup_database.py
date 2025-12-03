@@ -29,6 +29,7 @@ Cara cari koordinat real:
 """
 
 import sqlite3
+import os
 from datetime import datetime
 
 DATABASE = "shuttle.db"
@@ -37,8 +38,8 @@ DATABASE = "shuttle.db"
 # ⚠️ INI ADALAH ESTIMASI - HARUS DI-UPDATE!
 UISI_LOCATIONS = {
     "Pos P13": {
-        "lat": -7.1633,
-        "lng": 112.6280,
+        "lat": -7.166959,
+        "lng": 112.641980,
         "description": "Pos Security P13 - Pintu Masuk Utama"
     },
     "PPS": {
